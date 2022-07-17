@@ -17,6 +17,11 @@ const theme = {
 }
 
 const App = () => {
+  const [loaded] = useFonts({
+    
+
+  });
+
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{ headerShown: false }}

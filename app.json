@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ReachMVP",
-    "slug": "reachmvp",
+    "name": "Reach",
+    "slug": "Reach",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -28,8 +28,6 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "description": "Social sports app",
-    "githubUrl": "https://github.com/JosephCurtis1999/ReachReactNative"
+    }
   }
 }

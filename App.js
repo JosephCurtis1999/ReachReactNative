@@ -2,6 +2,9 @@ import { creatStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer, DefaultTheme } from "@react-navigation/native";
 import { useFonts } from 'expo-font';
 
+import Home from './screens/Home';
+import Details from './screens/Details';
+
 const Stack = createStackNavigator();
 
 const theme = {
@@ -12,7 +15,7 @@ const theme = {
   }
 }
 
-export default function App() {
+const App = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{ headerShown: false }}
